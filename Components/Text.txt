@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <title>Product-01</title>
+</head>
+<body>
+    <div class="nav1">
+        <nav>
+             <span id="logo" class="animate__animated infinite animate__flash">PPSU Store</span>
+            <ul style="color:black">
+               
+                <li><a href="#" class="buttons">Home</a></li>
+                <li><a href="#" class="buttons">About</a></li>
+                <li><a href="#" class="buttons">Services</a></li>
+                <li><a href="#" class="buttons">FeedBack</a></li>
+                <li><a href="#" class="buttons">Contact</a></li>
+                
+              </ul>
+        </nav>
+    </div>
+    <div class="product"><center>
+            <h1>Apple present the MAC Air 2020</h1><img src="222579-4.webp" alt="" sizes="" srcset="" width="400px" height="400px" id="img1">
+        </center>
+        
+        <h3>
+            <strong>Product_Name: <sub>PRODUCT ID: 222579</sub> </strong><h3>APPLE MACBOOK PRO CORE I9 9TH GEN MACOS LAPTOP (16 GB RAM, 1 TB SSD, 4 GB GRAPHICS, 40.64 CM, SPACE GREY)</h3>
+        </h3>
+    </div>
+</body>
+</html>
