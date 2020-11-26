@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clac</title>
+    <style>
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calculator {
+  width: 240px;
+  background-color: rgb(165, 165, 165);
+  padding: 2rem 1rem;
+  box-shadow: 0 0 10px 0 rgba(17, 17, 17, 0.2);
+  border-radius:10px;
+}
+
+.screen {
+  margin-bottom: 1rem;
+}
+
+.screen input {
+  width: 100%;
+  padding: .5rem 1rem;
+}
+
+
+.keys {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1rem;
+}
+
+.keys button {
+   padding: .5rem;
+  background-color: #111;
+  color: #fff;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  border-radius:10px;
+}
+    </style>
+</head>
+<body>
+
+    <div class="calculator">
+        <div class="screen">
+          <input type="text" id="screen" />
+        </div>
+        
+        <div class="keys">
+          <button>(</button>
+          <button>)</button>
+          <button>C</button>
+          <button>CE</button>
+          
+          <button>7</button>
+          <button>8</button>
+          <button>9</button>
+          <button>/</button>
+      
+          
+          <button>4</button>
+          <button>5</button>
+          <button>6</button>
+          <button>*</button>
+          
+          <button>1</button>
+          <button>2</button>
+          <button>3</button>
+          <button>-</button>
+          
+          <button>0</button>
+          <button>.</button>
+          <button>+</button>
+          <button>=</button>
+        </div>
+      </div>
+    
+</body>
+</html>
