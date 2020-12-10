@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bodystyle{
+  font-size: medium;
+}
+.dropdown:hover>.dropdown-menu {
+    display: block;
+    
+  }
+  
+  .dropdown>.dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+      pointer-events: none;
+  }
+
+#dropdownMenuButton:hover{
+  color: #fa0f0f; 
+}
+#text1{
+  margin-top: 2px;
+}
+#text2{
+  margin-top: 20px;
+  margin-bottom: 31px;
+}
+#row1{
+  margin-left: 37px;
+  margin-bottom: 27px;
+}
+#row2{
+  margin-left: 37px;
+}
+#counter1{
+  background-color: dimgrey;
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-bottom: 4px;
+}
+
+.title-1{
+  font-size: xx-large;
+  color: rgb(255, 255, 255);
+  font-weight: 1000;
+  
+}
+
+.carousel-caption {
+  background: #0000008a;
+ }
+ #Science{
+   color: deepskyblue;
+ }
+ #c-text{
+  font-family: 'Syne Mono', monospace;
+ }
+ .counter {
+  background-color:#f5f5f5;
+  padding: 20px 0;
+  border-radius: 5px;
+}
+
+.count-title {
+  font-size: 40px;
+  font-weight: normal;
+  margin-top: 10px;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.count-text {
+  font-size: 13px;
+  font-weight: normal;
+  margin-top: 10px;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.fa-2x {
+  margin: 0 auto;
+  float: none;
+  display: table;
+  color: #4ad1e5;
+}
+footer{
+  background-color:palevioletred ;
+}
+.list1{
+  color: #f5f5f5;
+}
